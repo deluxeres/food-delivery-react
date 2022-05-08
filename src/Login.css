@@ -47,10 +47,10 @@
 
 .login-email span {
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     display: block;
-    color: #545563;
+    color: #83859C;
     margin-bottom: 5px;
 }
 
@@ -60,10 +60,10 @@
 
 .login-password span {
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     display: block;
-    color: #545563;
+    color: #83859C;
     margin-bottom: 5px;
 }
 
@@ -78,7 +78,54 @@
 .login-password input {
     background-color: transparent;
     width: 100%;
-    padding: 10px 13px;
+    padding: 12px 12px;
     border: 1px solid #C7C8D2;
     border-radius: 8px;
+}
+
+.login-check {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.login-check label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B2B43;
+}
+
+.login-check input {
+    height: 20px;
+    width: 20px;
+    color: #2B2B43;
+    margin-right: 12px;
+}
+
+.login-confirm {
+    background: #4E60FF;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.login-confirm:hover {
+    background: #2d40eb;
+}
+
+.login-forgot {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4E60FF;
 }

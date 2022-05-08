@@ -27,6 +27,8 @@ function Login() {
                         <input id="check" type="checkbox" />
                         <label for="check" >Keep me logged in</label>
                     </div>
+                    <button className="login-confirm">Login</button>
+                    <span className="login-forgot">Forgot password</span>
                   </div>
                 </div>
             </div>
